@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "mellobirkan_cloudy_blue_sky_for_background_of_app_73bed196-442b-43d9-a840-8b4d0c20c108.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
