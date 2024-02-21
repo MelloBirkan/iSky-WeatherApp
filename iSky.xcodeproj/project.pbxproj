@@ -14,6 +14,7 @@
 		1BD742B52B85BD2200FBBF72 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD742B42B85BD2200FBBF72 /* LocationManager.swift */; };
 		1BD742B82B85BEA300FBBF72 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD742B72B85BEA300FBBF72 /* WelcomeView.swift */; };
 		1BD742BA2B85C3C100FBBF72 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD742B92B85C3C100FBBF72 /* LoadingView.swift */; };
+		1BD742BC2B85C6CD00FBBF72 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD742BB2B85C6CD00FBBF72 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1BD742B42B85BD2200FBBF72 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		1BD742B72B85BEA300FBBF72 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		1BD742B92B85C3C100FBBF72 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1BD742BB2B85C6CD00FBBF72 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				1BD742B42B85BD2200FBBF72 /* LocationManager.swift */,
+				1BD742BB2B85C6CD00FBBF72 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD742BC2B85C6CD00FBBF72 /* WeatherManager.swift in Sources */,
 				1BD742A82B85BBB200FBBF72 /* ContentView.swift in Sources */,
 				1BD742A62B85BBB200FBBF72 /* iSkyApp.swift in Sources */,
 				1BD742B52B85BD2200FBBF72 /* LocationManager.swift in Sources */,
