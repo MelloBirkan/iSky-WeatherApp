@@ -12,33 +12,33 @@ struct WelcomeView: View {
   @EnvironmentObject var locationManager: LocationManager
   
   var body: some View {
-//    ZStack {
-//      Image(.blueSky)
-      VStack {
-        VStack(spacing: 20) {
-          Text("Welcome to iSky!")
-            .bold()
-            .font(.title)
-          
-          Text("Please share your current location to get weather in your area")
-            .padding()
-            .frame(width: 300)
-        }
-        .multilineTextAlignment(.center)
-        .padding()
+    //    ZStack {
+    //      Image(.blueSky)
+    VStack {
+      VStack(spacing: 20) {
+        Text("Welcome to iSky!")
+          .bold()
+          .font(.title)
         
-        LocationButton(.shareCurrentLocation) {
-          locationManager.requestLocation()
-        }
-        .clipShape(RoundedRectangle(cornerRadius: 30))
-        .symbolVariant(.fill)
-        .foregroundStyle(.white)
-        .shadow(radius: 20)
+        Text("Please share your current location to get weather in your area")
+          .padding()
+          .frame(width: 300)
       }
+      .multilineTextAlignment(.center)
       .padding()
-      .background(.ultraThinMaterial)
-      .clipShape(RoundedRectangle(cornerRadius: 20))
-//    }
+      
+      LocationButton(.shareCurrentLocation) {
+        locationManager.requestLocation()
+      }
+      .clipShape(RoundedRectangle(cornerRadius: 30))
+      .symbolVariant(.fill)
+      .foregroundStyle(.white)
+      .shadow(radius: 8)
+    }
+    .padding()
+    .background(.ultraThinMaterial)
+    .clipShape(RoundedRectangle(cornerRadius: 20))
+    //    }
   }
 }
 

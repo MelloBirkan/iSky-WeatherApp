@@ -38,7 +38,6 @@ struct ContentView: View {
       }
     }
     .background(colorScheme == .dark ? Image(.nightsky) : Image(.blueSky))
-//    .background(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
   }
 }
 
